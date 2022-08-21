@@ -1,12 +1,6 @@
-const main = document.getElementById("main");
-main.remove();
-
-
-const newHeader = document.createnewHeader("div")
-
-document.body.append(div)
-
-const h1 =document.getElementById("h1");
-newHeader.append(h1);
-
-h1.innerHTML = "<h1>AWADH is the champion</h1>";
+const element = document.querySelector("main")
+element.remove();
+let newHeader = document.createElement('h1');
+newHeader.id = "victory";
+newHeader.innerHTML = "YOUR.NAME is the champion"
+document.body.appendChild(newHeader);
